@@ -415,6 +415,28 @@ div.new_tracks {
 #product_image_encoded {
 	display:none;
 }
+#shop {
+	display:none;
+}
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+	
+}
+input {
+  display: inline-block;
+  float: left;
+  margin-bottom:10px;
+}
+pre img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top:30px;
+}
 
 
 
