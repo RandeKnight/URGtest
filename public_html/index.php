@@ -22,7 +22,7 @@ if (isset($_SESSION['shop']) && isset($_SESSION['token'])){
 	// not authorized to get into the app so show them the authorization form
 	$action = "authorize";
 	$smarty->assign('mainnav', array(
-		array('name' => 'Install', 'href' => getLink('authorize'), 'class' => '')));
+		array('name' => 'Login', 'href' => getLink('authorize'), 'class' => '')));
 }
 
 /* based on the action, get a url */
@@ -41,7 +41,7 @@ function getLink($action='') {
 if (file_exists('core/' . $action . '.php'))
 	include('core/' . $action . '.php');
 
-$smarty->assign('title', 'ohShopify Sample App');
+$smarty->assign('title', 'URG Test');
 $smarty->assign('action', $action);
 $smarty->display('templates/header.tpl');
 $smarty->display('templates/' . $action .'.tpl');

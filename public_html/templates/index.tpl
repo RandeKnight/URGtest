@@ -1,8 +1,8 @@
-<h3>Welcome to the ohShopify Sample App</h3>
+<h3>URG test</h3>
 
 <dl>
-	<dt>Shop Name</dt>
-	<dd>{$shop_name}</dd>
 	<dt>Product Count</dt>
 	<dd>{$product_count}</dd>
+	<dt>Add Product</dt>
+	<dd><a href="index.php?action=createproduct">Create New Product</a></dd>
 </dl>
